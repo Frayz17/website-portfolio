@@ -1,0 +1,30 @@
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 0.7rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'roboto', Arial, sans-serif;
+  font-weight: 700;
+}
+
+.btn_projects {
+  background-color: $green;
+  &:hover {
+    background-color: $greenDark;
+  }
+  &:active {
+    background-color: $greenDarker;
+  }
+}
+
+.btn_contacts{
+  background-color: $blue;
+  &:hover {
+    background-color: $blueDark;
+  }
+  &:active {
+    background-color: $blueDarker;
+  }
+}

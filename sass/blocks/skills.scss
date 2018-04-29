@@ -1,0 +1,21 @@
+.skills {
+  padding-bottom: 6rem;
+}
+
+.skills-list {
+  margin: 0;
+  padding-left: 1rem;
+  list-style-type: circle;
+
+}
+
+.skills-item {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  &:first-child {
+    padding-top: 0;
+  }
+  &:last-child {
+    padding-bottom: 0;
+  }
+}

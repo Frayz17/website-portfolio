@@ -1,0 +1,10 @@
+/* Fading animation */
+.animation_fade {
+  animation-name: animation_fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes animation_fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
