@@ -1,0 +1,31 @@
+$white: #ffffff;
+$whiteTransparent: rgba($white, 0.2);
+
+$black: #333333;
+
+$grey: #999999;
+$lightGrey: #cccccc;
+
+$green: #007a3c;
+$greenDark: darken($green, 3%);
+$greenDarker: darken($green, 7%);
+
+$blue: #00537a;
+$blueDark: darken($blue, 3%);
+$blueDarker: darken($blue, 7%);
+
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: $black;
+  font-family: 'roboto', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
