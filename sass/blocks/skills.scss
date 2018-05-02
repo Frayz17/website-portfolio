@@ -6,7 +6,7 @@
   margin: 0;
   padding-left: 1rem;
   list-style-type: circle;
-
+  margin: auto;
 }
 
 .skills-item {
@@ -18,4 +18,30 @@
   &:last-child {
     padding-bottom: 0;
   }
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+  .skills-list {
+    padding-left: 3rem;
+    max-width: 500px;
+    // margin: auto;
+  }
+
+  // .skills-list::before {
+  //   content: " ";
+  //   background-image: url('../../img/skills/books.png');
+  //   background-repeat: no-repeat;
+  //   background-position: center;
+  //   background-size: contain;
+
+  //   position: absolute;
+  //   top: -4rem;
+  //   right: 5rem;
+  //   display: block;
+  //   width: 20rem;
+  //   height: 45rem;
+  // }
 }

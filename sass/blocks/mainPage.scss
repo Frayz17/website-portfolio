@@ -1,14 +1,11 @@
 .mainPage {
-  // display: flex;
   margin: 0 auto;
   margin-top: 10rem;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 
-.descriptionOfMe::before {
-  // content: url(../../img/mainPage/coffee.png);
-  // position: static;
-  // width: 30rem;
+.mainPage_navExpand {
+  margin-top: 30rem;
 }
 
 .descriptionOfMe {
@@ -49,3 +46,37 @@
   }
 
 }
+
+
+
+@media only screen and (min-width: 768px) {
+  .mainPage {
+    margin-top: 15rem;
+    margin-bottom: 5.5rem;
+  }
+
+  .mainPage_navExpand {
+    margin-top: 15rem;
+  }
+
+  .descriptionOfMe-name {
+    margin-bottom: 3rem; 
+    font-size: 9rem;
+    line-height: 10rem;
+  }
+
+  .mainPage-btn {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 1.7rem 4rem;
+  }
+}
+  
+  
+
+  
+// .descriptionOfMe::before {
+  // content: url(../../img/mainPage/coffee.png);
+  // position: static;
+  // width: 30rem;
+// }
