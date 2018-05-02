@@ -1,11 +1,11 @@
 .carousel {
   position: relative;
-  padding-bottom: 3rem;
-  border-bottom: 0.2rem solid #dddddd;
 }
 
 .carousel-imgBox {
   position: relative;
+  max-width: 70rem;
+  margin: auto;
 }
 
 .carousel-slide_fade {
@@ -93,4 +93,22 @@
 
 .carousel-projectItem_active {
   background-color: $grey;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  .carousel-slideTitle {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+
+  .carousel-slideDescription {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
 }

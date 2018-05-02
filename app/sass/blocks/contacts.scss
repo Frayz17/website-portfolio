@@ -17,6 +17,10 @@
   display: inline-block;
 }
 
+.contacts-variant_firstInList {
+  margin-top: 0;
+}
+
 .contacts-socialIcon {
   display: inline-block;
   // vertical-align: middle;
@@ -29,10 +33,4 @@
   text-align: center;
   font-style: italic;
   font-size: 1.6rem;
-}
-
-.slogan_contacts {
-  position: absolute;
-  bottom: 1.5rem;
-  right: 1rem;
 }

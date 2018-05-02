@@ -29,6 +29,11 @@
 
 
 .mainNavigation-list {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 7rem;
+
   margin: 0;
   padding: 0;
   color: $black;
@@ -58,8 +63,6 @@
 
 
 
-
-
 @media only screen and (min-width: 768px) {
   .mainNavigation-list_hidden {
     display: block;
@@ -67,6 +70,22 @@
 
   .mainNavigation-menuIconToggle {
     display: none;
+  }
+
+  .mainNavigation-list {
+    position: static;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5rem;
+  }
+
+  .mainNavigation-listItem {
+    display: inline-block;
+    border: none;
+  }
+
+  .mainNavigation-link {
+    color: $white;
   }
 }
 

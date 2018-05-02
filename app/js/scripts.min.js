@@ -2,11 +2,13 @@
 // variables
 let menuIconToggle = document.querySelector('.menuIconToggle');
 let mainNavigationList = document.querySelector('.mainNavigation-list');
+let mainPage = document.querySelector('.mainPage');
 
 // event listener
 menuIconToggle.addEventListener('click', function() {
 	menuIconToggleAnimation(menuIconToggle);
 	displayMenu(mainNavigationList);
+	mainPageToggleMargin(mainPage);
 });
 
 // functions
@@ -16,6 +18,10 @@ function menuIconToggleAnimation(element) {
 
 function displayMenu(element) {
 	element.classList.toggle("mainNavigation-list_hidden");
+}
+
+function mainPageToggleMargin(element) {
+	element.classList.toggle("mainPage_navExpand");
 }
 // -------------------------------------------------------------
 
