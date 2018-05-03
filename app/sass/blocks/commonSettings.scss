@@ -5,6 +5,8 @@ $black: #333333;
 
 $grey: #999999;
 $lightGrey: #cccccc;
+$greyDark: darken($grey, 30%);
+
 
 $green: #007a3c;
 $greenDark: darken($green, 3%);
@@ -28,6 +30,7 @@ body {
 
 a {
   text-decoration: none;
+  color: $blue;
 }
 
 @media only screen and (min-width: 768px) {

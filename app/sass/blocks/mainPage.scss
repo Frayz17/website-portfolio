@@ -72,11 +72,20 @@
   }
 }
   
-  
+@media only screen and (min-width: 1120px) {
+  .mainPage {
+    margin-top: 10rem;
+  }
+
+  .mainPage-flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mainPage-flexbox::before {
+    content: url(../../img/mainPage/coffee.png);
+  }
+}
 
   
-// .descriptionOfMe::before {
-  // content: url(../../img/mainPage/coffee.png);
-  // position: static;
-  // width: 30rem;
-// }

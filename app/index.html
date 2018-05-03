@@ -22,16 +22,16 @@
 				
 				<ul class="mainNavigation-list mainNavigation-list_hidden">
 					<li class="mainNavigation-listItem">
-						<a href="" class="mainNavigation-link">Home</a>
+						<a href="#mainPage" class="mainNavigation-link">Home</a>
 					</li>
 					<li class="mainNavigation-listItem">
-						<a href="" class="mainNavigation-link">Projects</a>
+						<a href="#projects" class="mainNavigation-link">Projects</a>
 					</li>
 					<li class="mainNavigation-listItem">
-						<a href="" class="mainNavigation-link">Skills</a>
+						<a href="#skills" class="mainNavigation-link">Skills</a>
 					</li>
 					<li class="mainNavigation-listItem">
-						<a href="" class="mainNavigation-link">Contacts</a>
+						<a href="#contacts" class="mainNavigation-link">Contacts</a>
 					</li>
 				</ul>
 				
@@ -43,25 +43,23 @@
 			</div>
 		</div>		
 	</div>
-
-	
 </nav>
 
-<section class="mainPage">
-	<div class="container">
-		<div class="descriptionOfMe">
+<section class="mainPage" id="mainPage">
+	<div class="container container-wide">
+		<div class="mainPage-flexbox">
+			<div class="descriptionOfMe">
 				<p class="descriptionOfMe-name">Andrey Dmitriew</p>
 				<p class="descriptionOfMe-specialization">Web Developer & Software Engenier</p>
-				<a class="btn btn_projects mainPage-btn" href="">projects</a>
-				<a class="btn btn_contacts mainPage-btn" href="">contacts</a>
+				<a class="btn btn_projects mainPage-btn" href="#projects">projects</a>
+				<a class="btn btn_contacts mainPage-btn" href="#contacts">contacts</a>
 			</div>
-			<div class="slogan mainPage-slogan">Honesty, responsibility and kindness.</div>
+		</div>
+		<div class="slogan mainPage-slogan">Honesty, responsibility and kindness.</div>
 	</div>
 </section>
 
-
-
-<section class="projects">
+<section class="projects" id="projects">
 	<div class="container">
     <h2 class="pageTitle projects-pageTitle">Projects</h2>
 
@@ -69,38 +67,50 @@
       <div class="carousel-slideBox">			
         <div class="carousel-slide animation_fade">
           <div class="carousel-imgBox">
-            <img class="carousel-slideImg" src="img/projects/lambda_restaurant.jpg">
+            <a class="carousel-projectLink" href="https://frayz17.github.io/lambdaRestaurant/index.html"><img class="carousel-slideImg" src="img/projects/lambda_restaurant.jpg"></a>
             <a class="carousel-prevSlide">&#10094;</a>
             <a class="carousel-nextSlide">&#10095;</a>
           </div>
           <div class="carousel-descriptionBox">
-            <h3 class="carousel-slideTitle">Title</h3>
-            <div class="carousel-slideDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <h3 class="carousel-slideTitle">Lambda Restaurant</h3>
+            <div class="carousel-slideDescription">HTML and CSS markup of this website was developed by me. The site is fully responsive.<br><br>The design of this restaurant psd template was made by <a href="http://www.oxygenna.com/">Oxygenna</a>; a designer agency from Crete, Greece.</div>
           </div>				
         </div>
         
         <div class="carousel-slide animation_fade carousel-slide_fade">
           <div class="carousel-imgBox">
-            <img class="carousel-slideImg" src="img/projects/mishka.jpg">
+            <a class="carousel-projectLink" href="https://frayz17.github.io/Mishka-magazine-htmlAcademy/"><img class="carousel-slideImg" src="img/projects/mishka.jpg"></a>
             <a class="carousel-prevSlide">&#10094;</a>
             <a class="carousel-nextSlide">&#10095;</a>
           </div>
           <div class="carousel-descriptionBox">
-            <h3 class="carousel-slideTitle">Title</h3>
-            <div class="carousel-slideDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+            <h3 class="carousel-slideTitle">Mishka</h3>
+            <div class="carousel-slideDescription">HTML and CSS markup of this website was developed by me. The site is fully responsive.<br><br>The design of this psd template was made by <a href="https://htmlacademy.ru/">HTML Academy</a>.</div>
           </div>		
         </div>
 
         <div class="carousel-slide animation_fade carousel-slide_fade">
           <div class="carousel-imgBox">
-              <img class="carousel-slideImg" src="img/projects/restourant_whiteFish.jpg">
-              <a class="carousel-prevSlide">&#10094;</a>
-              <a class="carousel-nextSlide">&#10095;</a>
-            </div>
-            <div class="carousel-descriptionBox">
-              <h3 class="carousel-slideTitle">Title</h3>
-              <div class="carousel-slideDescription">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
-            </div>
+						<a class="carousel-projectLink" href="https://frayz17.github.io/Restaurant-White-Fish/"><img class="carousel-slideImg" src="img/projects/restourant_whiteFish.jpg"></a>
+						<a class="carousel-prevSlide">&#10094;</a>
+						<a class="carousel-nextSlide">&#10095;</a>
+					</div>
+					<div class="carousel-descriptionBox">
+						<h3 class="carousel-slideTitle">Restaurant White Fish</h3>
+						<div class="carousel-slideDescription">HTML and CSS markup of this website was developed by me. The site is fully responsive.<br><br>The design of this restaurant psd template was made by <a href="http://www.michaeldescharles.com/">Michael Descharles</a>; a designer from Montreal, Canada.</div>
+					</div>
+				</div>
+				
+				<div class="carousel-slide animation_fade carousel-slide_fade">
+          <div class="carousel-imgBox">
+						<a class="carousel-projectLink" href="https://frayz17.github.io/Technomart-magazine-htmlAcademy/"><img class="carousel-slideImg" src="img/projects/technomart.jpg"></a>
+						<a class="carousel-prevSlide">&#10094;</a>
+						<a class="carousel-nextSlide">&#10095;</a>
+					</div>
+					<div class="carousel-descriptionBox">
+						<h3 class="carousel-slideTitle">Technomart</h3>
+						<div class="carousel-slideDescription">HTML and CSS markup of this website was developed by me.<br><br>The design of this psd template was made by <a href="https://htmlacademy.ru/">HTML Academy</a>.</div>
+					</div>
         </div>
       </div>
 
@@ -108,14 +118,16 @@
         <div class="carousel-projectsBox">
           <li class="carousel-projectItem carousel-projectItem_active"></li> 
           <li class="carousel-projectItem"></li> 
-          <li class="carousel-projectItem"></li> 	
+					<li class="carousel-projectItem"></li>
+					<li class="carousel-projectItem"></li>
         </div>
       </ul>
-    </div>
+		</div>
+		
   </div>
 </section>
 
-<section class="skills">
+<section class="skills" id="skills">
 	<div class="container container_relative">
 		<h2 class="pageTitle">Skills</h2>
 		<ul class="skills-list">
@@ -127,7 +139,7 @@
 	</div>
 </section>
 
-<section class="contacts">
+<section class="contacts" id="contacts">
 	<h2 class="pageTitle">Contacts</h2>
 	<div class="container container_relative contacts-flexbox">
 		<div class="contacts-infoBox">
