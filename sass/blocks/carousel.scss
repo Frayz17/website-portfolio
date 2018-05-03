@@ -92,11 +92,8 @@
 }
 
 .carousel-projectItem_active {
-  background-color: $grey;
+  background-color: $greyDark;
 }
-
-
-
 
 
 
@@ -104,7 +101,7 @@
   .carousel-slideTitle {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .carousel-slideDescription {
