@@ -47,6 +47,9 @@
   padding-left: 2rem;
   color: $black;
   border-bottom: 1px solid $lightGrey;
+  &:hover {
+    background-color: $lighterGrey;
+  }
 }
 
 .mainNavigation-link {
@@ -82,10 +85,16 @@
   .mainNavigation-listItem {
     display: inline-block;
     border: none;
+    &:hover {
+      background-color: transparent;
+    }
   }
 
   .mainNavigation-link {
     color: $white;
+    &:hover {
+      font-weight: 700;
+    }
   }
 }
 
