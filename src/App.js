@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import Navigation from 'modules/Navigation';
+import GlobalStyle from './GlobalStyle';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Skills />
       <Contacts />
       <Footer /> */}
+        <GlobalStyle />
       </Container>
     </>
   );
