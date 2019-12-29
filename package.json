@@ -1,12 +1,12 @@
 {
-  "name": "optimizedhtml",
-  "version": "4.0.1",
-  "description": "OptimizedHTML 4 - Start HTML Template",
+  "name": "portfolio",
+  "version": "1.0.2",
+  "description": "portfolio website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "WebDesign Master",
+  "author": "frayz",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.23.6",
