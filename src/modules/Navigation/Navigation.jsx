@@ -8,17 +8,15 @@ import Container from '@material-ui/core/Container';
 
 export default function Navigation() {
   return (
-    <AppBar position="static">
-      <Container maxWidth="md">
+    <AppBar position='static'>
+      <Container maxWidth='md'>
         <Toolbar>
-          <Grid container item md={12}>
-            <Typography variant="h6">Frayz</Typography>
-          </Grid>
-          <Grid container item md={12} justify="space-between">
-            <Button color="inherit">Home</Button>
-            <Button color="inherit">Projects</Button>
-            <Button color="inherit">Skills</Button>
-            <Button color="inherit">Contacts</Button>
+          <Grid container item sm={12} xs={1} justify='space-between'>
+            <Typography variant='h6'>Frayz</Typography>
+            <Button color='inherit'>Home</Button>
+            <Button color='inherit'>Projects</Button>
+            <Button color='inherit'>Skills</Button>
+            <Button color='inherit'>Contacts</Button>
           </Grid>
         </Toolbar>
       </Container>
