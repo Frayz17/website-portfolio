@@ -1,25 +1,31 @@
 import React from 'react';
-import Container from '@material-ui/core/Container';
-import Navigation from 'modules/Navigation';
-import GlobalStyle from './GlobalStyle';
+import Grid from '@material-ui/core/Grid';
+import Navigation from 'components/Navigation';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import SidePanel from 'components/SidePanel';
+import ProjectsPanel from 'components/ProjectsPanel';
+import { makeStyles } from '@material-ui/core/styles';
 
-function App() {
+const useStyles = makeStyles({
+  navigation: {
+    marginBottom: '160px'
+  }
+});
+
+export default function App() {
+  const classes = useStyles();
   return (
     <>
-      <Navigation />
-      <Container>
-        <div>opopop</div>
-
-        {/* <Navbar />
-      <Hero />
-      <Carousel />
-      <Skills />
-      <Contacts />
-      <Footer /> */}
-        <GlobalStyle />
-      </Container>
+      <CssBaseline />
+      <Navigation className={classes.navigation} />
+      <Grid container>
+        <Grid item sm={3}>
+          <SidePanel />
+        </Grid>
+        <Grid item sm={9}>
+          <ProjectsPanel />
+        </Grid>
+      </Grid>
     </>
   );
 }
-
-export default App;

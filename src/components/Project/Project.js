@@ -1,0 +1,41 @@
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Card from '@material-ui/core/Card';
+import CardMedia from '@material-ui/core/CardMedia';
+import CardContent from '@material-ui/core/CardContent';
+import Typography from '@material-ui/core/Typography';
+import Link from '@material-ui/core/Link';
+import Grid from '@material-ui/core/Grid';
+
+const useStyles = makeStyles({
+  card: {
+    width: 300
+  },
+  cardMedia: {
+    height: 200
+    // backgroundSize: 'contain'
+  },
+  link: {
+    '&:hover': {
+      textDecoration: 'none'
+    }
+  }
+});
+
+export default function Project({ imgSrc, title, description, href }) {
+  const classes = useStyles();
+
+  return (
+    <Grid item>
+      <Link className={classes.link} href={href}>
+        <Card className={classes.card}>
+          <CardMedia className={classes.cardMedia} image={imgSrc} />
+          <CardContent>
+            <Typography variant='h6'>{title}</Typography>
+            <Typography variant='body1'>{description}</Typography>
+          </CardContent>
+        </Card>
+      </Link>
+    </Grid>
+  );
+}
