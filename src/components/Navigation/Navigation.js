@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link as RouterLink } from 'react-router-dom';
+import Link from '@material-ui/core/Link';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
@@ -12,6 +13,9 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1
+  },
+  link: {
+    color: '#fff'
   }
 }));
 
@@ -19,17 +23,17 @@ export default function Navigation() {
   const classes = useStyles();
 
   return (
-    <AppBar position="static">
+    <AppBar position='static'>
       <Toolbar>
-        <Typography variant="h6" className={classes.title}>
+        <Typography variant='h6' className={classes.title}>
           Frayz Page
         </Typography>
 
-        <Link to="/">
-          <Button color="inherit">Projects</Button>
+        <Link component={RouterLink} to='/'>
+          <Button className={classes.link}>Projects</Button>
         </Link>
-        <Link to="/skills">
-          <Button color="inherit">Skills</Button>
+        <Link component={RouterLink} to='/skills'>
+          <Button className={classes.link}>Skills</Button>
         </Link>
       </Toolbar>
     </AppBar>

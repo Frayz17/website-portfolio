@@ -6,7 +6,6 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import Grid from '@material-ui/core/Grid';
-import { spacing } from '@material-ui/system';
 
 const useStyles = makeStyles({
   card: {
@@ -14,7 +13,6 @@ const useStyles = makeStyles({
   },
   cardMedia: {
     height: 180
-    // backgroundSize: 'contain'
   },
   link: {
     '&:hover': {
@@ -32,8 +30,8 @@ export default function Project({ imgSrc, title, description, href }) {
         <Card className={classes.card}>
           <CardMedia className={classes.cardMedia} image={imgSrc} />
           <CardContent>
-            <Typography variant="subtitle2">{title}</Typography>
-            <Typography variant="body2">{description}</Typography>
+            <Typography variant='subtitle2'>{title}</Typography>
+            <Typography variant='body2'>{description}</Typography>
           </CardContent>
         </Card>
       </Link>
