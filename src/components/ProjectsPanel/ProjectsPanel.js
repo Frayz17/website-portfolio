@@ -28,18 +28,17 @@ export default function ProjectsPanel() {
         <Container>
           <Typography
             className={classes.title}
-            variant="h3"
+            variant='h3'
             gutterBottom
-            align="center"
+            align='center'
           >
             Projects
           </Typography>
           <Grid container spacing={3}>
             {projects.map((item) => {
               return (
-                <Grid item xs={12} sm={12} md={4} lg={3}>
+                <Grid key={item.id} item xs={12} sm={12} md={4} lg={3}>
                   <Project
-                    key={item.id}
                     title={item.title}
                     description={item.description}
                     imgSrc={item.imgSrc}

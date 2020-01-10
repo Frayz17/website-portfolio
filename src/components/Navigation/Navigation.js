@@ -1,16 +1,16 @@
 import React from 'react';
-import { Link as RouterLink } from 'react-router-dom';
-import Link from '@material-ui/core/Link';
+// import { Link as RouterLink } from 'react-router-dom';
+// import Link from '@material-ui/core/Link';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Button from '@material-ui/core/Button';
+// import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import teal from '@material-ui/core/colors/teal';
+import indigo from '@material-ui/core/colors/indigo';
 
 const useStyles = makeStyles((theme) => ({
   toolBar: {
-    backgroundColor: teal[800]
+    backgroundColor: indigo[400]
   },
   menuButton: {
     marginRight: theme.spacing(2)
@@ -29,9 +29,9 @@ export default function Navigation() {
   const classes = useStyles();
 
   return (
-    <AppBar position="static">
+    <AppBar position='static'>
       <Toolbar className={classes.toolBar}>
-        <Typography variant="h6" className={classes.title}>
+        <Typography variant='h6' className={classes.title}>
           Frayz Page
         </Typography>
 

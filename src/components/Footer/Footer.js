@@ -11,15 +11,12 @@ import grey from '@material-ui/core/colors/grey';
 
 const useStyles = makeStyles((theme) => ({
   iconButton: {
-    fontSize: 28,
-    color: 'white'
-  },
-  link: {
-    color: 'white'
+    fontSize: 28
+    // color: 'white'
   },
   toolbar: {
     justifyContent: 'center',
-    backgroundColor: grey[800]
+    backgroundColor: grey[400]
   }
 }));
 
@@ -27,13 +24,9 @@ export default function Navigation() {
   const classes = useStyles();
 
   return (
-    <AppBar position="static">
+    <AppBar position='static'>
       <Toolbar className={classes.toolbar}>
-        <Link
-          className={classes.link}
-          href="https://www.instagram.com/_andrey.dmitriev"
-          variant="body2"
-        >
+        <Link href='https://www.instagram.com/_andrey.dmitriev' variant='body2'>
           <IconButton>
             <InstagramIcon className={classes.iconButton} />
           </IconButton>
@@ -41,8 +34,8 @@ export default function Navigation() {
 
         <Link
           className={classes.link}
-          href="https://github.com/Frayz17"
-          variant="body2"
+          href='https://github.com/Frayz17'
+          variant='body2'
         >
           <IconButton>
             <GitHubIcon className={classes.iconButton} />
@@ -51,8 +44,8 @@ export default function Navigation() {
 
         <Link
           className={classes.link}
-          href="mailto:andrydmit@gmail.com"
-          variant="body2"
+          href='mailto:andrydmit@gmail.com'
+          variant='body2'
         >
           <IconButton>
             <MailIcon className={classes.iconButton} />

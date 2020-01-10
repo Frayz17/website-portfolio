@@ -8,16 +8,8 @@ import SidePanel from 'components/SidePanel';
 import ProjectsPanel from 'components/ProjectsPanel';
 import SkillsPanel from 'components/SkillsPanel';
 import Footer from 'components/Footer';
-import { makeStyles } from '@material-ui/core/styles';
-
-const useStyles = makeStyles({
-  navigation: {
-    marginBottom: '160px'
-  }
-});
 
 export default function App() {
-  const classes = useStyles();
   return (
     <>
       <CssBaseline />
@@ -29,10 +21,10 @@ export default function App() {
         </Grid>
         <Grid item xs={12} sm={7} md={9}>
           <Switch>
-            <Route exact path="/">
+            <Route exact path='/'>
               <ProjectsPanel />
             </Route>
-            <Route path="/skills">
+            <Route path='/skills'>
               <SkillsPanel />
             </Route>
           </Switch>
