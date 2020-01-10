@@ -7,6 +7,7 @@ import IconButton from '@material-ui/core/IconButton';
 import MailIcon from '@material-ui/icons/Mail';
 import Link from '@material-ui/core/Link';
 import { makeStyles } from '@material-ui/core/styles';
+import grey from '@material-ui/core/colors/grey';
 
 const useStyles = makeStyles((theme) => ({
   iconButton: {
@@ -17,7 +18,8 @@ const useStyles = makeStyles((theme) => ({
     color: 'white'
   },
   toolbar: {
-    justifyContent: 'center'
+    justifyContent: 'center',
+    backgroundColor: grey[800]
   }
 }));
 

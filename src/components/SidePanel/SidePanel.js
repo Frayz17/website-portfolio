@@ -14,7 +14,8 @@ const useStyles = makeStyles({
     marginBottom: 10
   },
   cardMedia: {
-    height: 280
+    height: 280,
+    backgroundPosition: 'top'
   },
   paper: {
     paddingTop: 30

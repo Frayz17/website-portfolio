@@ -34,16 +34,18 @@ export default function ProjectsPanel() {
           >
             Projects
           </Typography>
-          <Grid container spacing={4}>
+          <Grid container spacing={3}>
             {projects.map((item) => {
               return (
-                <Project
-                  key={item.id}
-                  title={item.title}
-                  description={item.description}
-                  imgSrc={item.imgSrc}
-                  href={item.href}
-                />
+                <Grid item xs={12} sm={12} md={4} lg={3}>
+                  <Project
+                    key={item.id}
+                    title={item.title}
+                    description={item.description}
+                    imgSrc={item.imgSrc}
+                    href={item.href}
+                  />
+                </Grid>
               );
             })}
           </Grid>

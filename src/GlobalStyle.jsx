@@ -1,11 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  @import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
+
 `;
 
 export default GlobalStyle;
