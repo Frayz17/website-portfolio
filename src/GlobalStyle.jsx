@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
+import notoSerif from 'static/fonts/NotoSerif-Regular.ttf';
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
-
+  @import url(${notoSerif});
 `;
 
 export default GlobalStyle;

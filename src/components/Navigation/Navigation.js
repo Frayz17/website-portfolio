@@ -10,14 +10,15 @@ import indigo from '@material-ui/core/colors/indigo';
 
 const useStyles = makeStyles((theme) => ({
   toolBar: {
-    backgroundColor: indigo[400]
+    backgroundColor: indigo[400],
+    paddingLeft: 30
   },
   menuButton: {
     marginRight: theme.spacing(2)
   },
   title: {
     flexGrow: 1,
-    fontFamily: `'Marck Script', cursive;`,
+    fontFamily: `'Noto Serif', serif;`,
     fontSize: 28
   },
   link: {
