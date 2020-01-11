@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/website-portfolio/static/js/main.08c1fabd.chunk.js",
-    "main.js.map": "/website-portfolio/static/js/main.08c1fabd.chunk.js.map",
+    "main.js": "/website-portfolio/static/js/main.9bad91b2.chunk.js",
+    "main.js.map": "/website-portfolio/static/js/main.9bad91b2.chunk.js.map",
     "runtime-main.js": "/website-portfolio/static/js/runtime-main.d9c1e297.js",
     "runtime-main.js.map": "/website-portfolio/static/js/runtime-main.d9c1e297.js.map",
     "static/css/2.bc95f848.chunk.css": "/website-portfolio/static/css/2.bc95f848.chunk.css",
-    "static/js/2.fd7f4578.chunk.js": "/website-portfolio/static/js/2.fd7f4578.chunk.js",
-    "static/js/2.fd7f4578.chunk.js.map": "/website-portfolio/static/js/2.fd7f4578.chunk.js.map",
+    "static/js/2.9ed8bef9.chunk.js": "/website-portfolio/static/js/2.9ed8bef9.chunk.js",
+    "static/js/2.9ed8bef9.chunk.js.map": "/website-portfolio/static/js/2.9ed8bef9.chunk.js.map",
     "index.html": "/website-portfolio/index.html",
-    "precache-manifest.103438dfbce7e0a3506479247c2899ff.js": "/website-portfolio/precache-manifest.103438dfbce7e0a3506479247c2899ff.js",
+    "precache-manifest.d285617f05ec65ff41ee70c5246fb113.js": "/website-portfolio/precache-manifest.d285617f05ec65ff41ee70c5246fb113.js",
     "service-worker.js": "/website-portfolio/service-worker.js",
     "static/css/2.bc95f848.chunk.css.map": "/website-portfolio/static/css/2.bc95f848.chunk.css.map",
-    "static/js/2.fd7f4578.chunk.js.LICENSE": "/website-portfolio/static/js/2.fd7f4578.chunk.js.LICENSE",
+    "static/js/2.9ed8bef9.chunk.js.LICENSE": "/website-portfolio/static/js/2.9ed8bef9.chunk.js.LICENSE",
     "static/media/forPortfolio.jpg": "/website-portfolio/static/media/forPortfolio.4fd79545.jpg",
     "static/media/hotel_resort_250.jpg": "/website-portfolio/static/media/hotel_resort_250.f0d16bdd.jpg",
     "static/media/lambda_restaurant_250.jpg": "/website-portfolio/static/media/lambda_restaurant_250.b67ff41f.jpg",
@@ -19,13 +19,14 @@
     "static/media/nighties_store_250.jpg": "/website-portfolio/static/media/nighties_store_250.ca5973b3.jpg",
     "static/media/restourant_whiteFish_250.jpg": "/website-portfolio/static/media/restourant_whiteFish_250.4a78c236.jpg",
     "static/media/index.css": "/website-portfolio/static/media/roboto-latin-900italic.ebf6d164.woff2",
+    "static/media/sun_foods_250.jpg": "/website-portfolio/static/media/sun_foods_250.213c49f1.jpg",
     "static/media/technomart_250.jpg": "/website-portfolio/static/media/technomart_250.bab7aacd.jpg",
     "static/media/todo_list_vuejs_250.png": "/website-portfolio/static/media/todo_list_vuejs_250.fc5ee4c9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d9c1e297.js",
     "static/css/2.bc95f848.chunk.css",
-    "static/js/2.fd7f4578.chunk.js",
-    "static/js/main.08c1fabd.chunk.js"
+    "static/js/2.9ed8bef9.chunk.js",
+    "static/js/main.9bad91b2.chunk.js"
   ]
 }
