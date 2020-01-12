@@ -83,13 +83,33 @@ export default () => {
 
         <Box className={classes.blockInfo}>
           <Box className={classes.title}>
-            <Typography variant={'h6'}>Hobbies</Typography>
+            <Typography variant={'h6'}>Skills</Typography>
           </Box>
-          <Typography variant={'body2'}>Chess</Typography>
+          <Typography variant={'body2'}>Javascript</Typography>
           <Divider />
-          <Typography variant={'body2'}>Sport</Typography>
+          <Typography variant={'body2'}>React, React Router, Hooks</Typography>
           <Divider />
-          <Typography variant={'body2'}>Books</Typography>
+          <Typography variant={'body2'}>Redux</Typography>
+          <Divider />
+          <Typography variant={'body2'}>Material-UI</Typography>
+          <Divider />
+          <Typography variant={'body2'}>HTML</Typography>
+          <Divider />
+          <Typography variant={'body2'}>CSS, SCSS</Typography>
+          <Divider />
+          <Typography variant={'body2'}>Bootstrap</Typography>
+          <Divider />
+          <Divider />
+          <Box className={classes.title}>
+            <Typography variant={'subtitle2'}>Basic Knowlege</Typography>
+          </Box>
+          <Typography variant={'body2'}>Nodejs, Express</Typography>
+          <Divider />
+          <Typography variant={'body2'}>Vue</Typography>
+          <Divider />
+          <Typography variant={'body2'}>mySql, PostgreSQL</Typography>
+          <Divider />
+          <Typography variant={'body2'}>Wordpress, Woocommerce</Typography>
         </Box>
       </Container>
     </Paper>
