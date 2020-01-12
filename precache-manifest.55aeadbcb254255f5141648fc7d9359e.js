@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df7bab7360693c1d693fe29107d76d34",
+    "revision": "0d5ab9a306a516f5ca931b4196bff298",
     "url": "/website-portfolio/index.html"
   },
   {
-    "revision": "7f57f3d68b2955a59410",
+    "revision": "8e1bf30f0ccd3e00df1f",
     "url": "/website-portfolio/static/css/2.bc95f848.chunk.css"
   },
   {
-    "revision": "7f57f3d68b2955a59410",
-    "url": "/website-portfolio/static/js/2.9ed8bef9.chunk.js"
+    "revision": "8e1bf30f0ccd3e00df1f",
+    "url": "/website-portfolio/static/js/2.f99cf2fa.chunk.js"
   },
   {
     "revision": "374a015f9bd7dbb4f757a46f1c6a7946",
-    "url": "/website-portfolio/static/js/2.9ed8bef9.chunk.js.LICENSE"
+    "url": "/website-portfolio/static/js/2.f99cf2fa.chunk.js.LICENSE"
   },
   {
-    "revision": "b95eb1fbf85fe2e926ad",
-    "url": "/website-portfolio/static/js/main.9bad91b2.chunk.js"
+    "revision": "0309debbc7074433d533",
+    "url": "/website-portfolio/static/js/main.5eb87dcd.chunk.js"
   },
   {
     "revision": "ae502af3aa2532f95465",
     "url": "/website-portfolio/static/js/runtime-main.d9c1e297.js"
   },
   {
+    "revision": "d1c72e0e788cf2bbc1de53da57599bec",
+    "url": "/website-portfolio/static/media/NotoSerif-Regular.d1c72e0e.ttf"
+  },
+  {
     "revision": "4fd7954596f268d316cd8d342e16d8c8",
     "url": "/website-portfolio/static/media/forPortfolio.4fd79545.jpg"
+  },
+  {
+    "revision": "fb6573490f2260752a9ad441689ca476",
+    "url": "/website-portfolio/static/media/hematology_university_250.fb657349.png"
   },
   {
     "revision": "f0d16bdd1bb3e0df1065fa8d48f308aa",
