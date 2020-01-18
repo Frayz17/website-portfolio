@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/website-portfolio/static/js/main.5eb87dcd.chunk.js",
-    "main.js.map": "/website-portfolio/static/js/main.5eb87dcd.chunk.js.map",
+    "main.js": "/website-portfolio/static/js/main.10b1f188.chunk.js",
+    "main.js.map": "/website-portfolio/static/js/main.10b1f188.chunk.js.map",
     "runtime-main.js": "/website-portfolio/static/js/runtime-main.d9c1e297.js",
     "runtime-main.js.map": "/website-portfolio/static/js/runtime-main.d9c1e297.js.map",
     "static/css/2.bc95f848.chunk.css": "/website-portfolio/static/css/2.bc95f848.chunk.css",
-    "static/js/2.f99cf2fa.chunk.js": "/website-portfolio/static/js/2.f99cf2fa.chunk.js",
-    "static/js/2.f99cf2fa.chunk.js.map": "/website-portfolio/static/js/2.f99cf2fa.chunk.js.map",
+    "static/js/2.e7aa76e7.chunk.js": "/website-portfolio/static/js/2.e7aa76e7.chunk.js",
+    "static/js/2.e7aa76e7.chunk.js.map": "/website-portfolio/static/js/2.e7aa76e7.chunk.js.map",
     "index.html": "/website-portfolio/index.html",
-    "precache-manifest.55aeadbcb254255f5141648fc7d9359e.js": "/website-portfolio/precache-manifest.55aeadbcb254255f5141648fc7d9359e.js",
+    "precache-manifest.1426e01a5e0940d48c4c19aade0dfeaa.js": "/website-portfolio/precache-manifest.1426e01a5e0940d48c4c19aade0dfeaa.js",
     "service-worker.js": "/website-portfolio/service-worker.js",
     "static/css/2.bc95f848.chunk.css.map": "/website-portfolio/static/css/2.bc95f848.chunk.css.map",
-    "static/js/2.f99cf2fa.chunk.js.LICENSE": "/website-portfolio/static/js/2.f99cf2fa.chunk.js.LICENSE",
+    "static/js/2.e7aa76e7.chunk.js.LICENSE": "/website-portfolio/static/js/2.e7aa76e7.chunk.js.LICENSE",
     "static/media/NotoSerif-Regular.ttf": "/website-portfolio/static/media/NotoSerif-Regular.d1c72e0e.ttf",
     "static/media/forPortfolio.jpg": "/website-portfolio/static/media/forPortfolio.4fd79545.jpg",
     "static/media/hematology_university_250.png": "/website-portfolio/static/media/hematology_university_250.fb657349.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.d9c1e297.js",
     "static/css/2.bc95f848.chunk.css",
-    "static/js/2.f99cf2fa.chunk.js",
-    "static/js/main.5eb87dcd.chunk.js"
+    "static/js/2.e7aa76e7.chunk.js",
+    "static/js/main.10b1f188.chunk.js"
   ]
 }
