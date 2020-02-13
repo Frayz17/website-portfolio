@@ -1,3 +1,4 @@
+import uuidv4 from 'uuid/v4';
 import hotelResort from 'static/images/projects/hotel_resort_250.jpg';
 import lambdaRestaurant from 'static/images/projects/lambda_restaurant_250.jpg';
 import mishka from 'static/images/projects/mishka_250.jpg';
@@ -12,7 +13,7 @@ import gymExercises from 'static/images/projects/gym_exercises_250.png';
 
 const data = [
   {
-    id: 1,
+    id: uuidv4(),
     title: 'Hotel Resort',
     description:
       'Creating using react, react hooks, useContext, React Router libraries.',
@@ -20,7 +21,7 @@ const data = [
     href: 'https://frayz17.github.io/hotel-resort/'
   },
   {
-    id: 2,
+    id: uuidv4(),
     title: 'Nighties Store',
     description:
       'Online Store of pajamas and nighties wear. Written in WooCommerce.',
@@ -28,7 +29,7 @@ const data = [
     href: 'https://nighties.com.ua/'
   },
   {
-    id: 3,
+    id: uuidv4(),
     title: 'Chat With socket.io',
     description:
       'Created using React, React Router, Material-UI, Express, Socket.io.',
@@ -36,14 +37,14 @@ const data = [
     href: 'https://frayz17.github.io/chat-socket-io/#/'
   },
   {
-    id: 4,
+    id: uuidv4(),
     title: 'Gym Exercises',
     description: 'Created using React (with hooks), Material-UI.',
     imgSrc: gymExercises,
     href: 'https://frayz17.github.io/gym-exercises/'
   },
   {
-    id: 5,
+    id: uuidv4(),
     title: 'University of Hematology',
     description:
       'Created using React, React Router, Styled Components. Design is not mine.',
@@ -51,7 +52,7 @@ const data = [
     href: 'http://igt.in.ua/'
   },
   {
-    id: 6,
+    id: uuidv4(),
     title: 'ToDo List',
     description:
       'Created using Vuejs, axios as http client and JSONPlaceholder API for data manipulation.',
@@ -59,7 +60,7 @@ const data = [
     href: 'https://frayz17.github.io/todo-vue/'
   },
   {
-    id: 7,
+    id: uuidv4(),
     title: 'Lambda Restourant',
     description:
       'HTML and CSS markup of this website was developed by me. The design was made by Oxygenna, designer agency from Crete, Greece.',
@@ -67,7 +68,7 @@ const data = [
     href: 'https://frayz17.github.io/lambdaRestaurant/index.html'
   },
   {
-    id: 8,
+    id: uuidv4(),
     title: 'White Fish Restorant',
     description:
       'HTML and CSS markup of this website was developed by me. The design was made by Michael Descharles, designer from Montreal, Canada',
@@ -75,7 +76,7 @@ const data = [
     href: 'https://frayz17.github.io/Restaurant-White-Fish/'
   },
   {
-    id: 9,
+    id: uuidv4(),
     title: 'Sun Foods',
     description:
       'HTML and CSS markup of this website was developed by me. Designed by makebecool web studio.',
@@ -83,7 +84,7 @@ const data = [
     href: 'https://frayz17.github.io/sun-foods/'
   },
   {
-    id: 10,
+    id: uuidv4(),
     title: 'Mishka',
     description:
       'HTML and CSS markup of this website was developed by me. The design was made by HTML Academy',
@@ -91,7 +92,7 @@ const data = [
     href: 'https://frayz17.github.io/Mishka-magazine-htmlAcademy/'
   },
   {
-    id: 11,
+    id: uuidv4(),
     title: 'Technomart',
     description:
       'HTML and CSS markup of this website was developed by me. The design was made by HTML Academy',
