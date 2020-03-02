@@ -10,8 +10,24 @@ import sunFoods from 'static/images/projects/sun_foods_250.jpg';
 import hematologyUniversity from 'static/images/projects/hematology_university_250.png';
 import chatSocketIo from 'static/images/projects/chat_socket_io_250.png';
 import gymExercises from 'static/images/projects/gym_exercises_250.png';
+import dotsGame from 'static/images/projects/dotsGame.jpg';
 
 const data = [
+  {
+    id: uuidv4(),
+    title: 'University of Hematology',
+    description:
+      'Created using React, React Router, Styled Components. Design is not mine.',
+    imgSrc: hematologyUniversity,
+    href: 'http://igt.in.ua/'
+  },
+  {
+    id: uuidv4(),
+    title: 'Dots Game',
+    description: 'Created using React, Redux, Material-UI, Axios.',
+    imgSrc: dotsGame,
+    href: 'https://frayz17.github.io/dots-game/'
+  },
   {
     id: uuidv4(),
     title: 'Hotel Resort',
@@ -42,14 +58,6 @@ const data = [
     description: 'Created using React (with hooks), Material-UI.',
     imgSrc: gymExercises,
     href: 'https://frayz17.github.io/gym-exercises/'
-  },
-  {
-    id: uuidv4(),
-    title: 'University of Hematology',
-    description:
-      'Created using React, React Router, Styled Components. Design is not mine.',
-    imgSrc: hematologyUniversity,
-    href: 'http://igt.in.ua/'
   },
   {
     id: uuidv4(),
