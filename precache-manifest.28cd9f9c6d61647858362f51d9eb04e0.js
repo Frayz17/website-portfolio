@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d09dcb11e7b04bc127013513b1479628",
+    "revision": "abc79b77ed73637d8854a985a0fcbf66",
     "url": "/website-portfolio/index.html"
   },
   {
-    "revision": "0433a58dccd3abc10264",
+    "revision": "c68da834fff8bfab9380",
     "url": "/website-portfolio/static/css/2.bc95f848.chunk.css"
   },
   {
-    "revision": "0433a58dccd3abc10264",
-    "url": "/website-portfolio/static/js/2.99d5a7a8.chunk.js"
+    "revision": "c68da834fff8bfab9380",
+    "url": "/website-portfolio/static/js/2.d8fee9d6.chunk.js"
   },
   {
     "revision": "374a015f9bd7dbb4f757a46f1c6a7946",
-    "url": "/website-portfolio/static/js/2.99d5a7a8.chunk.js.LICENSE"
+    "url": "/website-portfolio/static/js/2.d8fee9d6.chunk.js.LICENSE"
   },
   {
-    "revision": "9c227d05afa3d71b9ed8",
-    "url": "/website-portfolio/static/js/main.286eb9e1.chunk.js"
+    "revision": "b43f9e355ca3bb38a67d",
+    "url": "/website-portfolio/static/js/main.99761dbe.chunk.js"
   },
   {
     "revision": "ae502af3aa2532f95465",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d1c72e0e788cf2bbc1de53da57599bec",
     "url": "/website-portfolio/static/media/NotoSerif-Regular.d1c72e0e.ttf"
+  },
+  {
+    "revision": "b407937096b69a5028385512044458d7",
+    "url": "/website-portfolio/static/media/dotsGame.b4079370.jpg"
   },
   {
     "revision": "4fd7954596f268d316cd8d342e16d8c8",

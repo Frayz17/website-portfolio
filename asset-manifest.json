@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.js": "/website-portfolio/static/js/main.286eb9e1.chunk.js",
-    "main.js.map": "/website-portfolio/static/js/main.286eb9e1.chunk.js.map",
+    "main.js": "/website-portfolio/static/js/main.99761dbe.chunk.js",
+    "main.js.map": "/website-portfolio/static/js/main.99761dbe.chunk.js.map",
     "runtime-main.js": "/website-portfolio/static/js/runtime-main.d9c1e297.js",
     "runtime-main.js.map": "/website-portfolio/static/js/runtime-main.d9c1e297.js.map",
     "static/css/2.bc95f848.chunk.css": "/website-portfolio/static/css/2.bc95f848.chunk.css",
-    "static/js/2.99d5a7a8.chunk.js": "/website-portfolio/static/js/2.99d5a7a8.chunk.js",
-    "static/js/2.99d5a7a8.chunk.js.map": "/website-portfolio/static/js/2.99d5a7a8.chunk.js.map",
+    "static/js/2.d8fee9d6.chunk.js": "/website-portfolio/static/js/2.d8fee9d6.chunk.js",
+    "static/js/2.d8fee9d6.chunk.js.map": "/website-portfolio/static/js/2.d8fee9d6.chunk.js.map",
     "index.html": "/website-portfolio/index.html",
-    "precache-manifest.79b5416ffa46904063658580428ac883.js": "/website-portfolio/precache-manifest.79b5416ffa46904063658580428ac883.js",
+    "precache-manifest.28cd9f9c6d61647858362f51d9eb04e0.js": "/website-portfolio/precache-manifest.28cd9f9c6d61647858362f51d9eb04e0.js",
     "service-worker.js": "/website-portfolio/service-worker.js",
     "static/css/2.bc95f848.chunk.css.map": "/website-portfolio/static/css/2.bc95f848.chunk.css.map",
-    "static/js/2.99d5a7a8.chunk.js.LICENSE": "/website-portfolio/static/js/2.99d5a7a8.chunk.js.LICENSE",
+    "static/js/2.d8fee9d6.chunk.js.LICENSE": "/website-portfolio/static/js/2.d8fee9d6.chunk.js.LICENSE",
     "static/media/NotoSerif-Regular.ttf": "/website-portfolio/static/media/NotoSerif-Regular.d1c72e0e.ttf",
+    "static/media/dotsGame.jpg": "/website-portfolio/static/media/dotsGame.b4079370.jpg",
     "static/media/forPortfolio.jpg": "/website-portfolio/static/media/forPortfolio.4fd79545.jpg",
     "static/media/gym_exercises_250.png": "/website-portfolio/static/media/gym_exercises_250.96e08471.png",
     "static/media/hematology_university_250.png": "/website-portfolio/static/media/hematology_university_250.fb657349.png",
@@ -29,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.d9c1e297.js",
     "static/css/2.bc95f848.chunk.css",
-    "static/js/2.99d5a7a8.chunk.js",
-    "static/js/main.286eb9e1.chunk.js"
+    "static/js/2.d8fee9d6.chunk.js",
+    "static/js/main.99761dbe.chunk.js"
   ]
 }
